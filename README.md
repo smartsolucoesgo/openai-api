@@ -143,6 +143,10 @@ curl -X GET http://localhost:3000/ia/ask-assistant \
 4. Faça um push para a branch (`git push origin feature/nova-feature`).
 5. Crie um novo Pull Request.
 
-## Licença
+## Considerações
 
 Este projeto foi feito com muita dedicaçao e espero que seja util para voce, caso queira implementar melhorias fique a vontade, faca a melhoria e crie o seu PR.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
