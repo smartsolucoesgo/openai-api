@@ -56,11 +56,16 @@ Este projeto demonstra a implementação de microserviços utilizando inteligên
 
 ## Uso
 
-### Endpoints
+### Endpoints Assistente
 
 - `POST /assistants/create`: Cria um novo assistente.
 - `PUT /assistants/edit`: Atualiza os dados do seu assistente.
 - `DELETE /assistants/delete`: Remove seu assistente.
+
+### Endpoints Perguntas
+
+- `POST /ia/ask`: Pergunta ao assistente automatico.
+- `POST /ia/ask-assistant`: Pergunta ao assistente especifico
 
 ### Exemplo de Requisição
 

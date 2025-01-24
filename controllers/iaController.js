@@ -12,7 +12,7 @@ const ask = async (req, res) => {
             messages: [
                 { 
                     role: "assistant", 
-                    content: process.env.ASSISTANT_PERSONA
+                    content: process.env.ASSISTANT_PERSONA ?? 'Você é um assistente útil.'
                 },
                 { 
                     role: "user", 
